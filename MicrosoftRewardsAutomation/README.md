@@ -2,7 +2,9 @@ This Extension is used to Collect Microsoft Reward Points from serching in Bing 
 
 It is only available in development package Due to lack of sponser to host in extension store.
 
---- How to install ---
+___
+How to install
+___
 
 1. Manage extensions
 2. Developer mode ( Turn on )
