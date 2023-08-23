@@ -21,7 +21,6 @@ function init() {
 }
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-    console.log("message received from popup",message)
     if((message.startTodayExecution && message.startTodayExecution === "True") || (message.restartRewardCollection && message.restartRewardCollection === "True")) {
         localStorage.setItem('microsoftRewardStatus',"START");
         localStorage.setItem('currentRewardPoint',0);
@@ -34,7 +33,6 @@ function handleRewardPointChange() {
     const rewardPoint = document.getElementById("id_rc");
     if(rewardPoint) {
         chrome.runtime.sendMessage({currentRewardPoint:rewardPoint.textContent});
-        console.log("Message sended");
     }
 }
 
