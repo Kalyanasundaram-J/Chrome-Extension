@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "MicrosoftRewardAi",
+    "name": "MicrosoftRewardCollector",
     "version": "1.0.1",
     "description": "Collect Microsoft Rewards automatically.",
     "icons": {
